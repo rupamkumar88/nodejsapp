@@ -1,0 +1,12 @@
+{
+  "name": "nodejs-sample-app",
+  "version": "1.0.0",
+  "description": "Sample Node.js app for SonarScanner Jenkins demo",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "author": "Your Name",
+  "license": "ISC"
+}
