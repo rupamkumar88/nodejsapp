@@ -1,5 +1,11 @@
-function add(a, b) {
-  return a + b;
-}
+const express = require('express');
+const app = express();
+const port = 3000;
 
-console.log("2 + 3 =", add(2, 3));
+app.get('/', (req, res) => {
+  res.send('Hello Jenkins!');
+});
+
+app.listen(port, () => {
+  console.log(`Server running on http://localhost:${port}`);
+});
